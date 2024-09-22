@@ -36,7 +36,12 @@ export default function Header() {
 
 # How to use a component ?
 
+To use a component we only need to import the required component in the file and use it as shown in the code below
+
 ```
+import Header from "@/components/Header";  // Importing Header Component
+import Footer from "@/components/Footer"; // Importing Footer Component
+
 export default function RootLayout({
   children,
 }: Readonly<{
@@ -47,9 +52,9 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
-        <Header /> // Header Component
+        <Header /> // Using Header Component
         {children}
-        <Footer /> // Footer component
+        <Footer /> // Using Footer Component
       </body>
     </html>
   );
