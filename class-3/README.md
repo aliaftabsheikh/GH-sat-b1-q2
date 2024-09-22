@@ -2,7 +2,7 @@
 What are Components?
 In Next.js, components are reusable pieces of UI that help you build pages efficiently. They are often used for common UI patterns like buttons, headers, footers, etc.
 
-#Creating a Component
+# Creating a Component
 To create a component, simply define a new .tsx file under the src/components folder.
 
 Example:
