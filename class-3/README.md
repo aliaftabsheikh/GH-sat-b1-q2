@@ -1,11 +1,11 @@
 # Components
-What are Components?
+#### What are Components?
 In Next.js, components are reusable pieces of UI that help you build pages efficiently. They are often used for common UI patterns like buttons, headers, footers, etc.
 
 # Creating a Component
 To create a component, simply define a new .tsx file under the src/components folder.
 
-Example:
+Example: <br />
 
 Create a Header.tsx in the src/components/ directory:
 
@@ -62,8 +62,8 @@ export default function RootLayout({
 ```
 
 # Layouts
-What are Layouts?
-Layouts in Next.js are used to wrap multiple pages with shared UI elements like navigation, headers, footers, and sidebars. They help in maintaining a consistent layout across different pages of your app.
+#### What are Layouts?
+Layouts in Next.js are used to wrap multiple pages with shared UI elements like navigation, headers, footers, and sidebars. They help in maintaining a consistent layout across different pages of your app. <br />
 
 This layout wraps all the pages in the application, providing a consistent header and footer.
 
