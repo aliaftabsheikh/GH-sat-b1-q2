@@ -1,36 +1,22 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Normal Routes VS Group Routes
 
-## Getting Started
+![image_2024-10-06_225819847](https://github.com/user-attachments/assets/7052c0ed-9e75-4dcb-b0e3-d09ee41f1680)
 
-First, run the development server:
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+# Different Types of Rendering
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+![image_2024-10-06_225920547](https://github.com/user-attachments/assets/a76aaad9-54b3-4267-b49f-5011c8401cc2)
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Client Side Rendering (CSR)
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+![image_2024-10-06_230019310](https://github.com/user-attachments/assets/50482674-4627-4125-b2b7-3f2305f9f84b)
 
-## Learn More
 
-To learn more about Next.js, take a look at the following resources:
+## Static Server-Side Rendering /  Static Site Generation (SSG)
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+![image_2024-10-06_230123949](https://github.com/user-attachments/assets/7d8eafd8-0ecd-49df-9533-7de92a95ab36)
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
 
-## Deploy on Vercel
+## Server-Side Rendering / Dynamic Rendering (SSR)
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+![image_2024-10-06_230526202](https://github.com/user-attachments/assets/ad3ca650-245d-40be-b831-f0b778f6e195)
